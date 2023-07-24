@@ -1,0 +1,40 @@
+/* FAQ.css */
+
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .faq-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .faq-item {
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .faq-question.expanded {
+    color: #007bff;
+  }
+  
+  .faq-answer {
+    margin-top: 8px;
+    display: none;
+  }
+  
+  .faq-item.expanded .faq-answer {
+    display: block;
+  }
+  

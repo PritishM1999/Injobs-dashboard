@@ -1,0 +1,10 @@
+textarea {
+  overflow: auto;
+  resize: vertical;
+  border-radius: 4px;
+  border-color: #c3c3c3;
+}
+
+.add-products-main .css-14yttyo-MuiFormLabel-root-MuiInputLabel-root {
+  display: none;
+}
