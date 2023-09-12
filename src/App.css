@@ -53,6 +53,13 @@ body {
   border: none;
 }
 
+.css-113qkos-MuiSwitch-root {
+  margin: 0;
+}
+
+.filter-container .css-1d1p3xg.Mui-focused {
+  display: none;
+}
 /* Tabs menu css */
 /* .card .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
   color: #5e35b1;

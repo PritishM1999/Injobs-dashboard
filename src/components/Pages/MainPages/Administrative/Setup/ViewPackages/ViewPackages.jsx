@@ -51,7 +51,6 @@ import copy from "copy-to-clipboard";
 // }
 
 const ViewPackages = () => {
-  
   function createData(
     srNo,
     StockUpdateOn,
@@ -91,7 +90,7 @@ const ViewPackages = () => {
       "$ 200",
       "10 %",
       "--",
-      "Active"
+      "Candidate"
     ),
     createData(
       2,
@@ -103,7 +102,7 @@ const ViewPackages = () => {
       "$ 200",
       "10 %",
       "--",
-      "Active"
+      "Company"
     ),
     createData(
       3,
@@ -115,7 +114,7 @@ const ViewPackages = () => {
       "$ 200",
       "10 %",
       "--",
-      "Active"
+      "Candidate"
     ),
 
     // Add more dummy data as needed

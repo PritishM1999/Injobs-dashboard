@@ -19,24 +19,24 @@ const SetPrefixes = () => {
           </div>
           <div className="filter-container">
             <Grid container spacing={2}>
-              <Grid item xs={12} md={3}>
+              {/* <Grid item xs={12} md={3}>
                 <InputLabel htmlFor="">Candidate Order :</InputLabel>
                 <FormControl fullWidth>
                   <TextField placeholder="CAN" />
                 </FormControl>
-              </Grid>
+              </Grid> */}
               <Grid item xs={12} md={3}>
                 <InputLabel htmlFor="">Candidate Invoice :</InputLabel>
                 <FormControl fullWidth>
                   <TextField placeholder="CIN" />
                 </FormControl>
               </Grid>
-              <Grid item xs={12} md={3}>
+              {/* <Grid item xs={12} md={3}>
                 <InputLabel htmlFor="">Company Order :</InputLabel>
                 <FormControl fullWidth>
                   <TextField placeholder="CON" />
                 </FormControl>
-              </Grid>
+              </Grid> */}
               <Grid item xs={12} md={3}>
                 <InputLabel htmlFor="">Employees Invoice :</InputLabel>
                 <FormControl fullWidth>

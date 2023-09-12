@@ -140,7 +140,7 @@ const PickupPoint = () => {
           <h3>All Pick-up Report</h3>
           {/* Buttons */}
           <div className="tabs-butons">
-            <Link to="/admin/Administrative/Setup/add-pick-up-point">
+            <Link to="/admin/administrative-setup/settings/add-pick-up-point">
               <Button variant="contained">Add New Pickup Point</Button>
             </Link>
           </div>

@@ -77,12 +77,6 @@ const AddMeta = () => {
                 </FormControl>
               </Grid>
 
-              <Grid item xs={12} md={6}>
-                <InputLabel htmlFor="">Meta Pixels :</InputLabel>
-                <FormControl fullWidth>
-                  <textarea placeholder="" />
-                </FormControl>
-              </Grid>
               <Grid item xs={12}>
                 <div
                   className="add-wishlist-submit-btn"

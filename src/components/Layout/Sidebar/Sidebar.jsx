@@ -29,7 +29,7 @@ const routes = [
   },
 
   {
-    path: "/admin/company-dashboard/administrative/miscellaneous",
+    path: "/admin/micellaneous/setup-miscellaneous",
     name: "Miscellaneous",
     icon: <MdMiscellaneousServices />,
     // subRoutes: [
@@ -84,7 +84,7 @@ const routes = [
     subRoutes: [
       {
         name: "Setup",
-        path: "/admin/company-dashboard/administrative/setup",
+        path: "/admin/administrative/setup",
         // subRoutes: [
         //   {
         //     path: "/admin/Administrative/Setup/pick-up-point",
@@ -132,7 +132,7 @@ const routes = [
       // },
       {
         name: "Settings",
-        path: "/admin/company-dashboard/administrative/settings",
+        path: "/admin/administrative/settings",
         // subRoutes: [
         //   {
         //     path: "/admin/Administrative/Trash/deleted-orders",
@@ -194,6 +194,10 @@ const routes = [
               {
                 path: "/admin/Administrative/Website-Setup/meta/dynamic",
                 name: "Dynamic",
+              },
+              {
+                path: "/admin/Administrative/Website-Setup/meta/meta-pixels",
+                name: "Meta Pixels",
               },
             ],
           },

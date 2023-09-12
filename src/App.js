@@ -107,12 +107,14 @@ import ViewOrderDetails from "./components/Pages/MainPages/ViewDetails/ViewOrder
 import ViewInvoiceDetails from "./components/Pages/MainPages/ViewDetails/ViewInvoice";
 import ViewAndUpdateStatus from "./components/Pages/MainPages/ViewDetails/ViewStatus";
 
-import SetupTab from "./components/Pages/MainPages/Administrative/Setup/SetupTabComponent";
+import AdministrativeSettings from "./components/Pages/MainPages/Administrative/Settings/Settings"
+
+
 // import AddPackages from "./components/Pages/MainPages/Administrative/Setup/AddPackage/AddPackage";
 // import ViewPackages from "./components/Pages/MainPages/Administrative/Setup/ViewPackages/ViewPackages";
 
-import AdministrativeSetup from "./components/Pages/MainPages/Administrative/Settings/Settings";
-import Miscellaneous from "./components/Pages/MainPages/Miscelaneous/Misleneous";
+import AdministrativeSetup from "./components/Pages/MainPages/Administrative/Setup/SetupTabComponent";
+import SetupMiscellaneous from "./components/Pages/MainPages/Miscelaneous/MisleneousSetup";
 
 
 import NewsletterSubs from "./components/Pages/MainPages/Administrative/Newsletter/NewsletterSubs";
@@ -120,6 +122,7 @@ import NewsletterSubs from "./components/Pages/MainPages/Administrative/Newslett
 import WebsiteSetupPages from "./components/Pages/MainPages/Administrative/WebsiteSetup/WebsiteSetup";
 
 import KnowledgeBase from "./components/Pages/MainPages/Administrative/WebsiteSetup/KnowledgeBase/knowledgebaseMenu";
+import MetaPixels from "./components/Pages/MainPages/Administrative/MetaPixels";
 
 
 import theme from "./theme";
@@ -136,13 +139,13 @@ function App() {
             <Route path="/admin/dashboard" element={<Dashboard />} />
             <Route path="/admin/candidate-dashboard" element={<CandidatesDash />} />
             <Route path="/admin/company-dashboard" element={<CompaniesDash />} />
-            {/* <Route path="/admin/Administrative/setup/add-package" element={<AddPackages />} /> */}
+            {/* <Route path="/admin/administrative-setup/settings/add-package" element={<AddPackages />} /> */}
 
-            <Route path="/admin/company-dashboard/administrative/setup" element={<SetupTab />} />
+            <Route path="/admin/administrative/settings" element={<AdministrativeSettings />} />
 
-            <Route path="/admin/company-dashboard/administrative/settings" element={<AdministrativeSetup />} />
-            <Route path="/admin/company-dashboard/administrative/miscellaneous" element={<Miscellaneous />} />
-            {/* <Route path="/admin/administrative/setup/view-packages" element={<ViewPackages />} /> */}
+            <Route path="/admin/administrative/setup" element={<AdministrativeSetup />} />
+            <Route path="/admin/micellaneous/setup-miscellaneous" element={<SetupMiscellaneous />} />
+            {/* <Route path="/admin/administrative-setup/settings/view-packages" element={<ViewPackages />} /> */}
 
             <Route path="/admin/administrative/newsletter" element={<NewsletterSubs />} />
 
@@ -153,6 +156,9 @@ function App() {
 
             <Route path="/admin/Administrative/Website-Setup/meta/static" element={<StaticMetaDetails />} />
             <Route path="/admin/Administrative/Website-Setup/meta/dynamic" element={<DynamicMetaDetails />} />
+            <Route path="/admin/Administrative/Website-Setup/meta/meta-pixels" element={<MetaPixels />} />
+
+
 
 
 
@@ -235,9 +241,9 @@ function App() {
             <Route path="/admin/Report/Sales-Report/Employee-sales-report" element={<EmployeeSalesReport />} />
             <Route path="/admin/Report/Sales-Report/wishlist-report" element={<WishlistReport />} />
 
-            <Route path="/admin/Administrative/Setup/pick-up-point" element={<PickupPoint />} />
-            <Route path="/admin/Administrative/Setup/add-pick-up-point" element={<AddPickupPoint />} />
-            <Route path="/admin/Administrative/Setup/Shipping/shipping-config" element={<ShippingConfiguration />} />
+            <Route path="/admin/administrative-setup/settings/pick-up-point" element={<PickupPoint />} />
+            <Route path="/admin/administrative-setup/settings/add-pick-up-point" element={<AddPickupPoint />} />
+            <Route path="/admin/administrative-setup/settings/Shipping/shipping-config" element={<ShippingConfiguration />} />
             <Route path="/admin/Administrative/Settings/roles-permission" element={<RolesPermissions />} />
             <Route path="/admin/Administrative/Settings/add-roles" element={<AddRoleAndPremissions />} />
             <Route path="/admin/Administrative/Settings/prefixes" element={<Prefixes />} />
